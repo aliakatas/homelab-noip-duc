@@ -1,0 +1,11 @@
+services:
+  noip-duc:
+    image: ghcr.io/noipcom/noip-duc:latest
+    container_name: noip-duc
+    environment:
+      - NOIP_USERNAME=${NOIP_USERNAME:-your_username}
+      - NOIP_PASSWORD=${NOIP_PASSWORD:-your_password}
+      - NOIP_HOSTNAMES=${NOIP_HOSTNAMES:-your_hostname}
+      - NOIP_CHECK_INTERVAL=${NOIP_CHECK_INTERVAL:-5m}
+    restart: unless-stopped
+    
