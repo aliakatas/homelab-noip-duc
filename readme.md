@@ -1,5 +1,5 @@
 # Homelab NoIP-DUC
-Utility to keep the DNS record up-to-date using Dynamic Update Client from NoIP for Linux (using Docker).
+Utility to keep the DNS record up-to-date using Dynamic Update Client (DUC) from NoIP for Linux (using Docker).
 
 A useful guide can be found through the [official channel](https://github.com/noipcom/linux-update-client-docker).
 
